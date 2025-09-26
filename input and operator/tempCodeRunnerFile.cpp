@@ -1,0 +1,1 @@
+ cout<<"enter the  value of time: \n";
