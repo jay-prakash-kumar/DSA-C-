@@ -1,0 +1,29 @@
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int a,b;
+//     cin>>a>>b;
+//     a=a+b;
+//     b=a-b;
+//     a=a-b;
+//     cout<<a<<endl<<b;
+    
+// }
+//  byusing function 
+
+#include<iostream>
+using namespace std;
+int swap(int &a,int &b)
+{
+    int temp=a;
+    a=b;
+    b=temp ;
+}
+int main()
+{
+    int a,b;
+    cin>>a>>b;
+    swap(a,b);
+    cout<<"swapped value of a is: "<<a<<endl<<"value of b is "<<b;
+}
